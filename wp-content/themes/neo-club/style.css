@@ -1,0 +1,194 @@
+/*
+Theme Name: neo-club
+Version: 1.1
+Description: neo-club
+Author: sercraft
+*/
+.only{
+	display:none !important;
+}
+/*Стандартные стили*/
+.alignnone {
+    margin: 5px 40px 20px 0;
+}
+.aligncenter, div.aligncenter {
+    margin: auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 40px;
+}
+.alignleft {
+    float:left;
+    margin: 5px 40px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+
+
+@media(max-width: 768px) {
+   .post-content p iframe {
+        height: 320px;
+        width: 100%;
+    }
+}
+@media(max-width: 500px) {
+   .post-content p iframe {
+        height: 280px;
+    }
+}
+@media(max-width: 430px) {
+   .post-content p iframe {
+        height: 240px;
+    }
+} 
+@media(min-width: 992px) and (max-width: 1260px) {
+    .post-content p iframe {
+        width: 600px;
+    }
+}
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 40px;
+}
+a img.alignnone {
+    margin: 5px 40px 20px 0;
+}
+a img.alignleft {
+    float:left;
+    margin: 5px 40px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 40px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 40px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 40px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+/* Custom style */
+.ratings .likebtn-wrapper {
+    display: flex;
+}
+.ratings .lb-style-custom .lb-like,
+.ratings .lb-style-custom .lb-dislike {
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 17px;
+}
+.ratings .lb-style-custom .lb-like {
+    margin-right: 0;
+    border: 1px solid #36b067;
+    order: 2;
+}
+.ratings .lb-style-custom .lb-dislike {
+    margin-right: 17px;
+    border: 1px solid #eb5555;
+    order: 1;
+}
+.ratings .lb-style-custom .lb-like-icon,
+.ratings .lb-style-custom .lb-dislike-icon {
+    margin-right: 10px;
+}
+
+.ratings .lb-style-custom .lb-like .lb-a,
+.ratings .lb-style-custom .lb-dislike .lb-a {
+    padding-right: 5px;
+    border-right: 1px solid #d2d2d2;
+    margin-right: 10px;
+}
+.ratings .lb-style-custom .lb-count {
+    padding-right: 12px;
+}
+.game-frame-nav-fav .simplefavorite-button.active,
+.slot-item-fav .simplefavorite-button.active {
+    opacity: 1;
+}
+
+#toc_container {
+    background-color: rgba(150,218,108,.25);
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+}
+
+#toc_container li::before {
+    display: none;
+}
+
+#toc_container a {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+#toc_container .toc_number {
+    color: #959595;
+    font-weight: 700;
+}
+
+#toc_container p.toc_title {
+    font-size: 20px;
+    text-align: left;
+}
+
+.post-content a:not(.btn) {
+	color: #1b984c;
+	text-decoration: none;
+}
+
+.post-content a:not(.btn):hover {
+	color: #96DA6C;
+	text-decoration: underline;
+}
+
+.footer-menu .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-menu .menu li {
+    margin-bottom: 5px;
+}
+
+.post-content blockquote {
+	color: #36b067;
+	font-weight: 700;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}

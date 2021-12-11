@@ -1,0 +1,71 @@
+.section-slots-single
+
+	.main-game-frame
+		margin-bottom: 50px
+
+		.main-game-frame-box
+			display: flex
+			flex-direction: column
+			background-color: #e2e2e2
+			border-radius: 5px
+			margin-bottom: 15px
+			overflow: hidden
+
+		iframe
+			border: 0
+
+		.game-frame-nav
+			padding: 6px 20px 10px
+			display: flex
+			align-items: center
+			font-size: 24px
+
+		.game-frame-nav-wrap
+			flex-grow: 1
+
+		.game-frame-nav-fav,
+		.game-frame-nav-maximize
+			color: #959595
+			cursor: pointer
+
+		.game-frame-nav-fav
+
+			.fas
+				color: #fdd211
+
+		.game-frame-nav-feedback
+			color: #eb5555
+			cursor: pointer
+
+		.game-frame-nav-maximize
+			margin-left: 20px
+
+		.btn
+			font-weight: 600
+			font-size: 18px
+			line-height: 22px
+			text-transform: uppercase
+
+		&.fullscreen
+			position: fixed
+			display: flex
+			flex-direction: column
+			top: 0
+			left: 0
+			width: 100vw
+			height: 100vh
+			padding: 40px 57px 40px 40px
+			background-color: #f0f1f2
+			z-index: 10
+			margin-bottom: 0
+			+r(767)
+				padding: 20px 37px 20px 20px
+			+r(575)
+				padding: 15px 32px 15px 15px
+
+			.main-game-frame-box,
+			iframe
+				flex-grow: 1
+
+	.post
+		margin-bottom: 30px

@@ -1,0 +1,82 @@
+.slot-item
+	max-width: 290px
+	margin: 0 auto
+
+	.slot-item-icon
+		display: block
+		overflow: hidden
+		position: relative
+		border-radius: $border-radius $border-radius 0 0
+
+		img
+			filter: blur(0)
+			transition: $transition-fast
+
+	.slot-item-fav
+		position: absolute
+		top: 10px
+		right: 10px
+		color: $color-white
+		font-size: 25px
+		z-index: 2
+		cursor: pointer
+
+		.fas
+			color: #fdd211
+
+	.slot-item-btns
+		position: absolute
+		width: 100%
+		height: 100%
+		top: 0
+		left: 0
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		opacity: 0
+		transition: $transition
+
+		.btn
+			width: 138px
+
+		.btn-bordered
+			margin-bottom: 13px
+
+	.slot-item-title
+		padding: 13px 10px 11px
+		display: block
+		color: $color-dark
+		font-weight: 500
+		font-size: 18px
+		line-height: 22px
+		text-align: center
+		text-decoration: none
+		background-color: #e2e2e2
+		border-radius: 0 0 $border-radius $border-radius
+
+	&:hover
+
+		.slot-item-btns
+			opacity: 1
+
+		.slot-item-icon
+
+			img
+				filter: blur(12px)
+
+.slots-loop
+
+	.item
+		width: 33.3333%
+		padding-left: 15px
+		padding-right: 15px
+		margin-bottom: 30px
+		+r(1259)
+			width: 50%
+		+r(991)
+			width: 33.3333%
+		+r(767)
+			width: 50%
+		+r(575)
+			width: 100%

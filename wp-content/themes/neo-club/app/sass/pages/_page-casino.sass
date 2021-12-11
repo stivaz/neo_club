@@ -1,0 +1,138 @@
+.casino-single
+	position: relative
+	margin-bottom: 15px
+
+	+ .btn
+		margin-bottom: 50px
+
+	.casino-single-bg
+		position: relative
+
+		> img
+			border-radius: $border-radius $border-radius 0 0
+
+	.casino-single-logo
+		position: absolute
+		bottom: -40px
+		left: 50%
+		transform: translateX(-50%)
+		border: 1px solid #e3e3e3
+		box-shadow: 12px 12px 24px rgba(10, 26, 59, 0.25)
+		border-radius: 10px
+		overflow: hidden
+
+	.casino-single-title
+		padding: 55px 0 15px
+		color: $color-dark
+		font-size: 25px
+		font-weight: 500
+		line-height: 35px
+		text-align: center
+		background-color: #e2e2e2
+
+	.casino-single-options
+		padding: 30px 70px 15px
+		background-color: $color-white
+		border-radius: 0 0 5px 5px
+		+r(767)
+			padding: 30px 20px
+
+	.casino-single-ratings
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		margin-bottom: 15px
+
+	.casino-single-rating
+		width: calc(33.3333% - 40px)
+		margin-bottom: 15px
+		+r(1259)
+			width: 100%
+
+	.casino-single-rating-text
+		//width: 100%
+		display: flex
+		align-items: center
+		color: #626262
+		font-size: 13px
+		line-height: 16px
+		margin-bottom: 4px
+
+		i
+			color: #959595
+			font-size: 15px
+			line-height: 15px
+			margin-right: 8px
+
+	.casino-single-rating-title
+		color: #959595
+		flex-grow: 1
+
+	.casino-single-rating-max
+		color: #959595
+
+	.casino-single-rating-bar,
+	.casino-single-rating-count
+		height: 8px
+		border-radius: 4px
+
+	.casino-single-rating-bar
+		position: relative
+		background-color: #dcdcdc
+
+	.casino-single-rating-count
+		position: absolute
+		top: 0
+		left: 0
+		background-color: #96da6c
+
+	.casino-single-features
+		display: flex
+		flex-wrap: wrap
+
+	.casino-single-feature
+		display: flex
+		align-items: center
+		margin-bottom: 15px
+		min-width: 50%
+		+r(575)
+			width: 100%
+			flex-direction: column
+			align-items: flex-start
+
+	.casino-single-feature-title
+		padding: 11px 19px 12px
+		display: flex
+		justify-content: center
+		align-items: center
+		color: $color-dark
+		position: relative
+		z-index: 1
+		margin-right: 10px
+		+r(575)
+			width: 100%
+			justify-content: flex-start
+			margin-bottom: 5px
+
+		&::before
+			position: absolute
+			content: ''
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			background: rgba(150, 218, 108, 0.25)
+			transform: matrix(0.98, 0, -0.19, 1, 0, 0)
+			border-radius: 5px
+			z-index: -1
+
+		img
+			margin-right: 10px
+
+	.casino-single-feature-descr
+		color: #626262
+
+		a
+			color: #626262
+			text-decoration: none
+			cursor: pointer

@@ -1,0 +1,97 @@
+.header
+	padding: 27px 0
+	background-color: $color-dark
+	+r(991)
+		padding: 15px 0
+
+	.row
+		align-items: center
+		+r(991)
+			justify-content: space-between
+
+	.header-top
+		display: none
+		+r(991)
+			display: flex
+			align-items: center
+			justify-content: space-between
+
+		.header-top-logo
+			+r(991)
+				flex-grow: 1
+
+	.header-bottom
+		+r(991)
+			display: none
+			flex-direction: column-reverse
+
+		.header-right
+			+r(991)
+				order: 1
+				justify-content: flex-start
+				padding-left: 15px
+
+			a
+				+r(991)
+					display: none
+
+		&.on
+			+r(991)
+				display: block
+
+	.header-center
+		width: 200px
+		+r(1259)
+			width: 100%
+			order: 1
+			text-align: center
+			margin-bottom: 20px
+		+r(991)
+			display: none
+
+	.header-left,
+	.header-right
+		width: calc(50% - 100px)
+		display: flex
+		+r(1259)
+			width: 50%
+		+r(991)
+			width: 100%
+
+	.header-left
+		+r(1259)
+			order: 2
+		+r(991)
+			margin-bottom: 20px
+
+	.header-right
+		justify-content: flex-end
+		align-items: center
+		padding-right: 15px
+		+r(1259)
+			order: 3
+		+r(991)
+			order: unset
+
+		a
+			color: #959595
+			font-size: 24px
+
+			&:hover
+				color: $color-accent
+
+			&:not(:first-child)
+				margin-left: 15px
+
+	.cf
+		margin-right: 50px
+
+		input[type=search]
+			padding: 4px 15px
+			color: $color-white
+			background-color: transparent
+			border: 1px solid $color-text
+			border-radius: $border-radius
+
+		input[type=submit]
+			display: none

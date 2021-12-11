@@ -1,0 +1,39 @@
+.section-slots
+
+	.slots-loop-item
+		display: inline-block
+		width: calc(33.3333% - 20px)
+		margin-right: 30px
+		margin-bottom: 30px
+		text-align: center
+		text-decoration: none
+		+r(767)
+			width: calc(50% - 15px)
+		+r(575)
+			width: auto
+			margin-right: 0
+
+		img
+			margin-bottom: 10px
+
+		.slots-loop-item-title
+			color: $color-white
+			font-size: 17px
+			font-weight: 500
+			transition: $transition
+
+		&:nth-child(3n)
+			margin-right: 0
+			+r(767)
+				margin-right: 30px
+			+r(575)
+				margin-right: 0
+
+		&:nth-child(2n)
+			+r(767)
+				margin-right: 0
+
+		&:hover
+
+			.slots-loop-item-title
+				color: $color-accent

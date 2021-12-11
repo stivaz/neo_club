@@ -1,0 +1,111 @@
+.section-content
+	padding: 50px 0
+
+	.item
+		width: 50%
+		padding-left: 15px
+		padding-right: 15px
+		+r(991)
+			width: 100%
+
+		&:first-child
+			+r(991)
+				margin-bottom: 30px
+
+	.block-readmore
+		overflow: hidden
+		position: relative
+
+		&::before
+			position: absolute
+			content: ''
+			width: 100%
+			height: 100px
+			left: 0
+			bottom: 0
+			background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(240, 241, 242, 1) 100%)
+			opacity: 1
+
+		&[aria-expanded=true]
+
+			&::before
+				opacity: 0
+
+	.readmore-link
+		padding-top: 30px
+		text-align: center
+
+		i
+			display: inline
+
+	.content-menu
+
+		ul
+			max-width: 400px
+			padding: 0
+			margin: 0 auto
+			list-style-type: none
+			display: flex
+			flex-wrap: wrap
+			+r(429)
+				max-width: 200px
+
+		li
+			padding: 15px
+			width: 50%
+			+r(429)
+				width: 100%
+
+			a
+				display: flex
+				flex-direction: column
+				align-items: center
+				justify-content: center
+				width: 170px
+				height: 170px
+				text-decoration: none
+				position: relative
+
+				&::before
+					position: absolute
+					content: ''
+					top: 0
+					left: 0
+					right: 0
+					bottom: 0
+					background-color: $color-white
+					border-radius: $border-radius
+					transition: $transition
+
+			img
+				filter: brightness(0.5)
+				transition: $transition
+				position: relative
+				margin-bottom: 22px
+
+			span
+				color: $color-dark
+				font-weight: 600
+				font-size: 18px
+				line-height: 22px
+				text-align: center
+				text-transform: uppercase
+				transition: $transition
+				position: relative
+
+			&:hover
+
+				a
+
+					&::before
+						top: -15px
+						left: -15px
+						right: -15px
+						bottom: -15px
+						background-color: $color-accent
+
+				img
+					filter: brightness(1)
+
+				span
+					color: $color-white

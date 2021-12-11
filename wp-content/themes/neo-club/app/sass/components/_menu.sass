@@ -1,0 +1,121 @@
+.menu
+	margin: 0
+	padding: 0
+	list-style-type: none
+	display: flex
+
+	li
+
+		&:not(:last-child)
+			margin-right: 10px
+
+		a
+			text-decoration: none
+
+.header-menu,
+.footer-menu
+
+	.menu
+
+		li
+
+			&:not(:last-child)
+				margin-right: 10px
+
+			a
+				padding: 6px 15px
+				display: inline-block
+				color: $color-white
+				position: relative
+				border: $border-transparent
+				border-radius: $border-radius
+
+				&:hover
+					border: $border
+
+			&.current-menu-item
+
+				a
+					border: $border
+
+.header-menu
+	+r(991)
+		padding-top: 10px
+		width: 100%
+
+	.menu
+		+r(991)
+			flex-direction: column
+			align-items: flex-start
+			padding-left: 15px
+
+		li
+			+r(991)
+				margin-bottom: 5px
+
+.footer-menu
+	flex-grow: 1
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+
+	.menu
+		+r(767)
+			flex-direction: column
+			align-items: center
+
+		li
+
+			&:not(:last-child)
+				+r(767)
+					margin-right: 0
+
+.menu-toggle
+	display: none
+	width: 50px
+	height: 50px
+	position: relative
+	cursor: pointer
+	margin-left: 15px
+	+r(991)
+		display: block
+
+	&::before,
+	&::after
+		position: absolute
+		content: ''
+		height: 4px
+		left: 0
+		top: 50%
+		background-color: #959595
+		transform: translateY(-50%)
+		transition: all .2s ease-in-out
+
+	&::before
+		width: 32px
+		margin-top: -5px
+
+	&::after
+		width: 20px
+		margin-top: 5px
+
+	&:hover
+
+		&::before,
+		&::after
+			background-color: $color-accent
+
+	&.on
+
+		&::before,
+		&::after
+			margin-top: 0
+			background-color: $color-accent
+
+		&::before
+			transform: translateY(-50%) rotate(45deg)
+
+		&::after
+			width: 32px
+			transform: translateY(-50%) rotate(-45deg)
+
