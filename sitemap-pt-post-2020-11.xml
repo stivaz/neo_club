@@ -1,91 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://neo-clubss.azurewebsites.net/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.1.0" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://neo-klub.azurewebsites.net/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.1.0" -->
 <!-- generated-on="01.04.2021 15:37" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>https://neo-clubss.azurewebsites.net/dungeon-quest/</loc>
+		<loc>https://neo-klub.azurewebsites.net/dungeon-quest/</loc>
 		<lastmod>2020-11-20T12:32:58+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/coins-of-fortune/</loc>
+		<loc>https://neo-klub.azurewebsites.net/coins-of-fortune/</loc>
 		<lastmod>2020-11-20T12:32:51+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/casino-win-spin/</loc>
+		<loc>https://neo-klub.azurewebsites.net/casino-win-spin/</loc>
 		<lastmod>2020-11-20T12:32:43+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/bonus-bunnies/</loc>
+		<loc>https://neo-klub.azurewebsites.net/bonus-bunnies/</loc>
 		<lastmod>2020-11-20T12:32:29+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/barbarian-fury/</loc>
+		<loc>https://neo-klub.azurewebsites.net/barbarian-fury/</loc>
 		<lastmod>2020-11-20T12:32:08+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/wild-sumo/</loc>
+		<loc>https://neo-klub.azurewebsites.net/wild-sumo/</loc>
 		<lastmod>2020-11-20T12:32:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/ukiyo-e/</loc>
+		<loc>https://neo-klub.azurewebsites.net/ukiyo-e/</loc>
 		<lastmod>2020-10-29T16:57:33+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/twinkle-star/</loc>
+		<loc>https://neo-klub.azurewebsites.net/twinkle-star/</loc>
 		<lastmod>2020-10-29T16:57:22+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/sushicade/</loc>
+		<loc>https://neo-klub.azurewebsites.net/sushicade/</loc>
 		<lastmod>2020-10-29T16:56:36+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/sumi-e/</loc>
+		<loc>https://neo-klub.azurewebsites.net/sumi-e/</loc>
 		<lastmod>2020-10-29T16:56:21+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/shiba-inu/</loc>
+		<loc>https://neo-klub.azurewebsites.net/shiba-inu/</loc>
 		<lastmod>2020-10-29T16:56:08+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/she-ninja-suzu/</loc>
+		<loc>https://neo-klub.azurewebsites.net/she-ninja-suzu/</loc>
 		<lastmod>2020-10-29T16:55:58+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/samurai-girl/</loc>
+		<loc>https://neo-klub.azurewebsites.net/samurai-girl/</loc>
 		<lastmod>2020-10-29T16:55:49+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/power-of-elements/</loc>
+		<loc>https://neo-klub.azurewebsites.net/power-of-elements/</loc>
 		<lastmod>2020-10-29T16:55:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/ping-pong-king/</loc>
+		<loc>https://neo-klub.azurewebsites.net/ping-pong-king/</loc>
 		<lastmod>2020-10-29T16:55:06+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>

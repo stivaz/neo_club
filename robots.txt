@@ -49,4 +49,4 @@ Disallow: /casino/sol/sol-5/
 Disallow: /без-рубрики/
 Disallow: /main.php
 Disallow: /casino/fresh/fresh-5/
-Host: https://neo-clubss.azurewebsites.net
+Host: https://neo-klub.azurewebsites.net

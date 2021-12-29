@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://neo-clubss.azurewebsites.net/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.1.0" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://neo-klub.azurewebsites.net/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.1.0" -->
 <!-- generated-on="01.04.2021 15:33" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
-		<loc>https://neo-clubss.azurewebsites.net/news/novyj-avtomat-ot-pragmatic-play/</loc>
+		<loc>https://neo-klub.azurewebsites.net/news/novyj-avtomat-ot-pragmatic-play/</loc>
 		<lastmod>2020-12-19T17:00:04+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/news/trendy-v-slotah-2020-goda/</loc>
+		<loc>https://neo-klub.azurewebsites.net/news/trendy-v-slotah-2020-goda/</loc>
 		<lastmod>2020-12-08T14:21:16+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/news/pragmatic-gotovit-bingo-gde-vy-vyigryvaete-spiny/</loc>
+		<loc>https://neo-klub.azurewebsites.net/news/pragmatic-gotovit-bingo-gde-vy-vyigryvaete-spiny/</loc>
 		<lastmod>2020-12-08T14:21:27+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://neo-clubss.azurewebsites.net/news/shvecziya-prodlevaet-limity-na-igru/</loc>
+		<loc>https://neo-klub.azurewebsites.net/news/shvecziya-prodlevaet-limity-na-igru/</loc>
 		<lastmod>2020-12-08T14:21:41+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>

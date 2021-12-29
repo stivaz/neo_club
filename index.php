@@ -7,7 +7,7 @@ $new_url = 'rugame-avtomati.net';
 //extract headers from a string. header is in the name:value format.
 if($_SERVER['REQUEST_URI'] == '/faq/registracziya-v-onlajn-kazino'){
 		header('HTTP/1.1 301 Moved Permanently');
-		header('Location: https://neo-clubss.azurewebsites.net/faq/registracziya-v-onlajn-kazino/'); 
+		header('Location: https://neo-klub.azurewebsites.net/faq/registracziya-v-onlajn-kazino/'); 
 		exit;	
 }
 function splitHeader( $strHeader ) {
@@ -158,8 +158,8 @@ curl_setopt( $ch, CURLOPT_USERAGENT, "Proxy" );
 curl_setopt( $ch, CURLOPT_HEADER, 0 );
 $contents = curl_exec( $ch );
 curl_close( $ch );
-$bodytag = str_replace( "((?!rugame-avtomati\.net/b)\w+(?:\.\w+)+", "https://neo-clubss.azurewebsites.net/", $contents );
-$result  = preg_replace( '~' . $new_url . '~m', "neo-clubss.azurewebsites.net", $contents );
+$bodytag = str_replace( "((?!rugame-avtomati\.net/b)\w+(?:\.\w+)+", "https://neo-klub.azurewebsites.net/", $contents );
+$result  = preg_replace( '~' . $new_url . '~m', "neo-klub.azurewebsites.net", $contents );
 preg_match_all( "/(https:\/\/rugame-avtomati.net).*\.(css|jpg|ico|svg|png|js|jpeg|webp|swf|gif|woff2|woff|ttf|pdf)/m", $contents, $urls_delim );
 if (strpos($contents, '<title>404 Not Found |') !== false) {
 	header("HTTP/1.1 404 Internal Server Error", true, 404);
